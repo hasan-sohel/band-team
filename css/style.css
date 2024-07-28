@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar start */
+#navbar {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#navbar ul{
+    list-style-type: none; /* New */
+    display: flex;
+    /* padding: 10px 0px; */
+}
+
+#navbar li{
+    padding: 20px 12px; /* New */
+    cursor: pointer;
+}
+
+#navbar li:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+/* Navbar End */
+
+#image-slider-section{
+    background-image: url('/img/1.jpg');
+    height: 600px;
+    color: white;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#image-slider-section p{
+    margin-bottom: 32px;
+}
+
+/* The Band start */
+#the-band-section{
+    margin: 20px 100px;
+}
+#the-band-section h2, #we-love-music{
+    text-align: center;
+}
+
+#the-band-section h2{
+    margin: 16px 0px;
+}
+
+#the-band-section #random-text{
+    text-align: justify;
+    margin: 14px 0px;
+}
+
+#the-band-section #we-love-music{
+    text-align: center;
+    font-style: italic;
+    padding: 10px 0px;
+}
+
+#the-band-three-div-section{
+    margin: 60px 0px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.name-p{
+    padding: 14px 0px;
+}
+
+.img-alter{
+    height: 300px;
+    width: 200px;
+    background-color: rgb(112, 233, 193);
+}
+/* The Band End */
+
+/* Tour dates start */
+#tour-dates{
+    background-color: black;
+    color: white;
+    /* height: ; */
+    padding: 30px;
+}
+
+#tour-dates h2 {
+    text-align: center;
+    padding: 50px 0px 20px 0px;
+}
+
+#tour-dates p {
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+}
+
+#tour-dates #three-divs {
+    background-color: white;
+    width: 70%;
+    color: black;
+    /* padding: 30px 0px; */
+    margin: auto;
+}
+
+.tour-date-div{
+    font-size: 18px;
+    padding: 10px;
+    color: gray;
+}
+
+.sold-out{
+    background-color: rgb(189, 49, 49);
+    color: white;
+    padding: 3px 8px;
+    border-radius: 10px;
+}
+
+#border-top-bottom{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+#alada-design-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+#alada-design-3{
+    background-color: black;
+    border-radius: 100%;
+    padding: 5px 12px;
+    color: white;  
+}
+
+#buy-tickets-div{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.ticket-div{
+    background-color: white;
+    color: black;    
+    width: 33%;
+    margin: 20px;  
+}
+.ticket-div img{
+    height: 200px;
+    width: 275px;
+}
+.common-div{
+    margin: 8px;
+}
+.design-btn{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+.design-btn:hover{
+    background-color: rgb(177, 171, 171);
+    color: black;
+    border: 0;
+    cursor: pointer;
+}
+/* Tour dates end */  
+
+/* Contact section start */
+#contact{
+    margin: 20px 0px;
+    padding: 10px;
+}
+#contact h2, #contact-p-tag{
+    text-align: center;
+}
+#contact-parent-div{
+    display: flex;
+    justify-content: space-around;
+}
+.mtb-10{
+    margin: 10px 0px;
+}
+.mr-8{
+    margin-right: 8px;
+}
+input{
+    padding: 10px 5px;
+}
+#form-first-div{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+#form-first-div input{
+    width: 50%;
+}
+#name-input{
+    margin-right: 3px;
+}
+#third-input-div{
+    margin-top: 10px;
+    text-align: right;
+}
+#message-input-tag{
+    width: 100%;
+}
+
+/* Contact section close */
+
+/* Last Section start */
+#map {
+    background-image: url('/img/map.jpg');
+    height: 600px
+}
+#social-media-icons{
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: gray;
+}
+#powered-by{
+    font-size: 20px;
+    padding: 5px 0px;
+}
+#powered-by a{
+    color: gray;
+
+}
+/* Last Section end */
